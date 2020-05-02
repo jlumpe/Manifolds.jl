@@ -46,7 +46,7 @@ Sphere(n::Int, field::AbstractNumbers = ℝ) = Sphere{n,field}()
     ArraySphere{T<:Tuple,𝔽} <: AbstractSphere{𝔽}
 
 The (unit) sphere manifold $𝕊^{n₁,n₂,...,nᵢ}$ is the set of all unit (Frobenius) norm elements of
-$𝔽^{n₁,n₂,...,nᵢ}$, where $𝔽\in\{ℝ,ℂ\}. The generalized sphere is
+$𝔽^{n₁,n₂,...,nᵢ}$, where $𝔽\in\{ℝ,ℂ\}$. The generalized sphere is
 represented in the embedding, and supports arbitrary sized arrays or in other words arbitrary
 tensors of unit norm. The set formally reads
 
